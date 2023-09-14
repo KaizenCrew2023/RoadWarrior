@@ -92,7 +92,7 @@ You can share information about your trips with friends and family in Road Warri
 
 ### Context Map
 
-![Context Map](images/roadwarrior-contextmap.PNG)
+![Context Map](images/roadwarrior-contextmap.png)
 
 ### Domains and Subdomains
 
