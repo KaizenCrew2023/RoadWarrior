@@ -1,0 +1,90 @@
+ContextMap RoadWarriorContextMap {
+    
+    type = SYSTEM_LANDSCAPE
+    state = TO_BE
+
+    /* Add bounded contexts to this map */
+    contains MobileApp
+    contains EmailScanning
+    contains ReservationManagement
+    contains Analysis
+    contains SignUp
+    contains Notification
+    contains TripSharing
+    contains Anonymisation
+    contains Authentication
+    contains ExternalTravelAgencySystem
+    contains ExternalEmailSystem
+    contains ExternalSocialMediaPlatform
+    contains ExternalMessagingSystem
+
+    SignUp -> Authentication
+
+    MobileApp -> ReservationManagement
+    MobileApp -> SignUp
+    MobileApp -> TripSharing
+
+    EmailScanning -> ExternalEmailSystem
+    EmailScanning -> ReservationManagement
+    ReservationManagement -> ExternalTravelAgencySystem
+    ReservationManagement -> Notification
+    ReservationManagement -> Analysis
+
+    Analysis -> Anonymisation
+
+    TripSharing -> ExternalSocialMediaPlatform
+    TripSharing -> ExternalMessagingSystem
+}
+
+/* Bounded Context Definitions */
+BoundedContext MobileApp implements MobileApp
+BoundedContext TripDashboard implements TripDashboard
+BoundedContext EmailScanning implements EmailScanning
+BoundedContext ReservationManagement implements ReservationManagement
+BoundedContext Analysis implements Analysis
+
+BoundedContext SignUp implements SignUp
+BoundedContext Notification implements Notification
+BoundedContext TripSharing implements TripSharing
+BoundedContext Anonymisation implements Anonymisation
+BoundedContext Authentication implements Authentication
+
+BoundedContext ExternalTravelAgencySystem
+BoundedContext ExternalEmailSystem
+BoundedContext ExternalSocialMediaPlatform
+BoundedContext ExternalMessagingSystem
+
+
+/* Domains & Subdomain Definitions */
+Domain Travel {
+    Subdomain MobileApp {
+        type = CORE_DOMAIN
+    }
+    Subdomain TripDashboard {
+        type = CORE_DOMAIN
+    }
+    Subdomain EmailScanning {
+        type = CORE_DOMAIN
+    }
+    Subdomain ReservationManagement {
+        type = CORE_DOMAIN
+    }
+    Subdomain Analysis {
+        type = CORE_DOMAIN
+    }
+    Subdomain SignUp {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Notification {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain TripSharing {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Anonymisation {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Authentication {
+        type = GENERIC_SUBDOMAIN
+    } 
+}
