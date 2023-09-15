@@ -15,7 +15,7 @@ Proposed
 ## Consequences
 
 Positive:
-- Enables the geo-located reservations services to access the reservations database 'locally' with notifications and viewing performing comparably across all regions.
+- Enables the geo-located reservation and trip services to access their databases 'locally' with performance being comparable across all regions.
 
 Negative:
 - Cost 
