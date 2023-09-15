@@ -135,8 +135,8 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 * [ADR 3: Cloud Content Delivery Network at the Edge](decisions/ADR-3%20Cloud%20Content%20Delivery%20Network%20at%20the%20Edge.md)
 * [ADR 4: Geo-replication for Trips and Reservations](decisions/ADR-4%20Geo-replication%20for%20Trips%20and%20Reservations.md)
 * [ADR 5: Key Vault for Authentication Tokens](decisions/ADR-5%20Key%20Vault%20for%20Authentication%20Tokens.md)
-* [ADR-6: Native Android and iOS Apps](decisions/ADR-6%20Native%20Andriod%20and%20iOS%20Apps.md)
-* [ADR-7: Backends for Frontends for Andoid and iOS Apps](decisions/ADR-7%20Backends%20for%20Frontends%20for%20Andriod%20and%20iOS%20Apps.md)
+* [ADR-6: Native Android and iOS Apps](decisions/ADR-6%20Native%20Android%20and%20iOS%20Apps.md)
+* [ADR-7: Backends for Frontends for Android and iOS Apps](decisions/ADR-7%20Backends%20for%20Frontends%20for%20Android%20and%20iOS%20Apps.md)
 * [ADR-8: Pipes and Filters Architecture for Analytics](decisions/ADR-8%20Pipes%20and%20Filters%20Architecture%20for%20Analytics.md)
 
 ### Architecture Diagrams
