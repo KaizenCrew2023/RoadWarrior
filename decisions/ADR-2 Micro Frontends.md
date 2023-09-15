@@ -2,11 +2,15 @@
 
 ## Context
 
+Web browser users of the Road Warrior app should experience as rich a UI as possible. 
+Speed to delivery of change will be key to be a leading player in this domain for the start up company.
+
+
 This section describes the forces at play, including technological, political, social, and project local. These forces are probably in tension, and should be called out as such. The language in this section is value neutral. It is simply describing facts.
 
 ## Decision
 
-This section describes our response to these forces. It is stated in full sentences, woth active voice. "We will..."
+The web/browser based front end will be composed of micro-front ends. 
 
 ## Status
 
@@ -14,6 +18,18 @@ Proposed
 
 ## Consequences
 
-This section describes the resulting context, after applying the decision. All consequences should be listed here, not just the "positive" ones. A particular decision may have positive, negative, and neutral consequences, but all of them affect the team and project in the future. 
+Positive:
 
-The whole document should be one or two pages long. We will write each ADR as if it is a conversation with a future developer. This requires good writing style, with full sentences organised into paragraphs. Bullets are acceptable only for visual style, not as an excuse for writing sentence fragments. 
+- Enables each micro front end to be for a distinct area of business. 
+- Each front-end could be owned by independent teams as the application scales in size
+- The technology choices in the future can evolve without needing that 'major' rewrite
+
+Negative:
+
+- Each team could diverge technology or framework for their front-end resulting in Micro Frontends Anarchy. 
+
+
+Alternatives considered:
+
+- single page app for the entire application - can lead to development and deployment bottlenecks/conflicts resulting in slower to deliver enhancements. Single page apps can effectivey become their own monolith
+
