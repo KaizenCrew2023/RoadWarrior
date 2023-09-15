@@ -1,16 +1,12 @@
-# ADR 2: Micro Frontends
+# ADR-2: Micro Frontends
 
 ## Context
 
-Web browser users of the Road Warrior app should experience as rich a UI as possible. 
-Speed to delivery of change will be key to be a leading player in this domain for the start up company.
-
-
-This section describes the forces at play, including technological, political, social, and project local. These forces are probably in tension, and should be called out as such. The language in this section is value neutral. It is simply describing facts.
+Road Warrior has made a strategic design decision to separate its core subdomians from supporting subdomains to enable it to outsource supporting subdomains where required.
 
 ## Decision
 
-The web/browser based front end will be composed of micro-front ends. 
+We will build micro-front ends for the web application.
 
 ## Status
 
@@ -20,16 +16,18 @@ Proposed
 
 Positive:
 
-- Enables each micro front end to be for a distinct area of business. 
+- Enables each micro front end to be for distinct subdomains 
+- Enables outsourcing of the development of supporting subdomains
 - Each front-end could be owned by independent teams as the application scales in size
 - The technology choices in the future can evolve without needing that 'major' rewrite
 
 Negative:
 
 - Each team could diverge technology or framework for their front-end resulting in Micro Frontends Anarchy. 
-
+- Needs co-ordination between teams for style and layout consistency
 
 Alternatives considered:
 
-- single page app for the entire application - can lead to development and deployment bottlenecks/conflicts resulting in slower to deliver enhancements. Single page apps can effectivey become their own monolith
+- Single page app for the entire application - hard to develop / maintain across teams and far harder to outsource. Single page apps can effectively become their own monolith.
+
 
