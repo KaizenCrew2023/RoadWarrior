@@ -1,12 +1,12 @@
-# ADR 3: Cloud Content Delivery Network at the Edge 
+# ADR-3: Cloud Content Delivery Network at the Edge 
 
 ## Context
 
-This section describes the forces at play, including technological, political, social, and project local. These forces are probably in tension, and should be called out as such. The language in this section is value neutral. It is simply describing facts.
+Road Warrior require their app to be international and be performant regardless of wordlwide location. 
 
 ## Decision
 
-This section describes our response to these forces. It is stated in full sentences, woth active voice. "We will..."
+We will use a cloud content delivery network at the edge for serving content and APIs to the most suitable geo-location for the user.
 
 ## Status
 
@@ -14,6 +14,12 @@ Proposed
 
 ## Consequences
 
-This section describes the resulting context, after applying the decision. All consequences should be listed here, not just the "positive" ones. A particular decision may have positive, negative, and neutral consequences, but all of them affect the team and project in the future. 
+Positive:
+- App performance is not compromised due to geo-location.
+- User experience is of using hte same app in all locations
 
-The whole document should be one or two pages long. We will write each ADR as if it is a conversation with a future developer. This requires good writing style, with full sentences organised into paragraphs. Bullets are acceptable only for visual style, not as an excuse for writing sentence fragments. 
+Negative:
+- Cost - all apps and services require multi geo-location deployments
+
+Alternatives considered:
+- single region hosting and accepting some regions have poorer performance due to latency
