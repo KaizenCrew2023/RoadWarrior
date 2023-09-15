@@ -157,7 +157,7 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 * Localisation and internationalisation
 
 #### Reservation management
-![Subdomain Reservations](images/roadwarrior-subdomain-reservations.png)
+![Subdomain Reservations](images/roadwarrior-subdomain-reservation.png)
 
 ##### Architectural Characteristics
 * Availability
