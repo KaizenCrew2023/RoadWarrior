@@ -15,8 +15,8 @@ Proposed
 ## Consequences
 
 Positive:
-- Improved user experience - optimizing data presentation and interactions to align with the specific needs and expectations of each mobile app user
-- Performance optimization - backend services aligned with the specific performance requirements of each frontend
+- Improved user experience 
+- Performance optimization - backend services can easy align with the specific performance requirements of each frontend
 - Scalability - backend services can dynamically scale based on the load and traffic of each mobile frontend
 - Flexibility for future evolving - new mobile frontens or updates to existing ones can be done with miminam disruption to the architecture
 
