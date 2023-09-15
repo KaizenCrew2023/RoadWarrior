@@ -130,6 +130,38 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 
 ### [Insert Diagrams]
 
+#### Mobile app
+![Subdomain Mobile](images/roadwarrior-subdomain-mobile.png)
+
+##### Capability 
+* Deliver a rich UX
+* Initiating trip sharing and account sign up
+* Communicate with reservations via Backend-to-Frontend
+
+##### Architectural Characteristics
+* Usability and User Experience
+* Performance
+* Localisation and internationalisation
+
+#### Trip management
+![Subdomain Reservations](images/roadwarrior-subdomain-reservations.png)
+
+##### Architectural Characteristics
+* Availability
+* Performance
+* Scalability
+
+#### Analytics
+![Subdmain Analytics](images/roadwarrior-subdomain-analytics.png)
+
+##### Architectural Characteristics
+* Reliability
+* Cost
+* Learnability
+
+#### Core
+![Core Domains](images/roadwarrior-coredomains.png)
+
 ### Architecture Decision Records
 
 * [ADR 1: Event-Driven Architecture for Reservations](decisions/ADR-1%20Event-Driven%20Architecture%20for%20Reservations.md)
