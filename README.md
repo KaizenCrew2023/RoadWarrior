@@ -40,6 +40,7 @@ You can share information about your trips with friends and family in Road Warri
 * The system can automatically search emails for upcoming travel, hotel and car rental reservations from selected travel agencies
 * Users can view information about upcoming reservations
 * Users can add, update and remove reservations manually
+* Users can forward reservation emails to RoadWarrior to add to their account
 * The system gets updates about reservations from travel agencies (as they happen) 
 * The system reminds travellers about upcoming reservations
 * The system notifies travellers about changes to their reservations
@@ -56,7 +57,7 @@ You can share information about your trips with friends and family in Road Warri
 
 #### Getting Help
 
-* Users can contact their preferred travel agent for help
+* Users can contact their preferred travel agent for help with their reservations
 
 #### Account Management
 
@@ -68,9 +69,9 @@ You can share information about your trips with friends and family in Road Warri
 * **Scalability** - 15 million registered users. 2 million weekly active users. Each user may have any number of trips or reservations.
 * **Availability** - 99.98% service availability (no more than 5 mins per month unplanned downtime).
 * **Performance** - 300ms response time on web and First Contentful Paint in under 1.4s in the mobile app.
-* **Data consistency** - Updates to reservations must appear in thes app within 5 minutes of receipt.
+* **Data consistency** - Updates to reservations must appear in the app within 5 minutes of receipt.
 * **Ease of use** - User experience is paramount. Road Warrior must be intuitive and easy to use.
-* **Internationalisation and localisation** - the app must be location- and timezone-aware and work for users in any location and in multiple languages. 
+* **Internationalisation and localisation** - the app must be location- and timezone-aware, work for users in any location and be capable of supporting multiple languages. 
 
 ## Architecture
 
