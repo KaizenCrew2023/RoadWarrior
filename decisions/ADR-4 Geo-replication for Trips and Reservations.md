@@ -21,6 +21,6 @@ Negative:
 - Cost 
 
 Alternatives:
-- Geo-replication with single region write, multi region read. Updates will incur more latency but app erformce for viewing reservation information will not be impacted. Thus notifcations of updates could be slower.
+- Geo-replication with single region write, multi region read. Updates will incur more latency but app performance for viewing reservation information will not be impacted. Thus notifcations of updates could be slower.
 - Data segmentation by region of the user - the nature of the app implies users will use the app in multiple regions themselves, thereby will experience greater latency when travelling in other regions.
 
