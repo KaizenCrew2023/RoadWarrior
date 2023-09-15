@@ -2,9 +2,11 @@
 
 ## Context
 
-This section describes the forces at play, including technological, political, social, and project local. These forces are probably in tension, and should be called out as such. The language in this section is value neutral. It is simply describing facts.
+Road Warrior require their app to be international and be performant regardless of worldwide location.
 
 ## Decision
+
+We will implement a multi region/geography write database solution for the Reservations database 
 
 This section describes our response to these forces. It is stated in full sentences, woth active voice. "We will..."
 
@@ -14,6 +16,13 @@ Proposed
 
 ## Consequences
 
-This section describes the resulting context, after applying the decision. All consequences should be listed here, not just the "positive" ones. A particular decision may have positive, negative, and neutral consequences, but all of them affect the team and project in the future. 
+Positive:
+- Enables the geo-located reservations services to access the reservations database 'locally' with notifications and viewing performaing coparably across all regions.
 
-The whole document should be one or two pages long. We will write each ADR as if it is a conversation with a future developer. This requires good writing style, with full sentences organised into paragraphs. Bullets are acceptable only for visual style, not as an excuse for writing sentence fragments. 
+Negative:
+- Cost 
+
+Alternatives:
+- Geo-replication with single region write, multi region read. Updates will incur more latency but app erformce for viewing reservation information will not be impacted. Thus notifcations of updates could be slower.
+- Data segmentation by region of the user - the nature of the app implies users will use the app in multiple regions themselves, thereby will experience greater latency when travelling in other regions.
+
