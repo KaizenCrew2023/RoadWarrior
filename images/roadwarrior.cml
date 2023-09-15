@@ -9,31 +9,29 @@ ContextMap RoadWarriorContextMap {
     contains ReservationManagement
     contains Analysis
     contains SignUp
-    contains Notification
     contains TripSharing
     contains Anonymisation
     contains Authentication
-    contains ExternalTravelAgencySystem
-    contains ExternalEmailSystem
-    contains ExternalSocialMediaPlatform
-    contains ExternalMessagingSystem
+    contains TravelAgencySystem
+    contains EmailSystem
+    contains SocialMediaPlatform
+    contains MessagingSystem
 
-    SignUp -> Authentication
+    SignUp [D,CF]<-[U,OHS,PL] Authentication
 
-    MobileApp -> ReservationManagement
-    MobileApp -> SignUp
-    MobileApp -> TripSharing
+    MobileApp [P]<->[P] ReservationManagement
+    MobileApp [P]<->[P] SignUp
+    MobileApp [P]<->[P] TripSharing
 
-    EmailScanning -> ExternalEmailSystem
-    EmailScanning -> ReservationManagement
-    ReservationManagement -> ExternalTravelAgencySystem
-    ReservationManagement -> Notification
-    ReservationManagement -> Analysis
+    EmailScanning [D,CF]<-[U,OHS,PL] EmailSystem
+    EmailScanning [P]<->[P] ReservationManagement
+    ReservationManagement [D,ACL]<-[U,OHS,PL] TravelAgencySystem
+    ReservationManagement [P]<->[P] Analysis
 
-    Analysis -> Anonymisation
+    Analysis [D,ACL]<-[U,OHS,PL]  Anonymisation
 
-    TripSharing -> ExternalSocialMediaPlatform
-    TripSharing -> ExternalMessagingSystem
+    TripSharing [D,CF]<-[U,OHS,PL]  SocialMediaPlatform
+    TripSharing [D,CF]<-[U,OHS,PL]  MessagingSystem
 }
 
 /* Bounded Context Definitions */
@@ -44,15 +42,14 @@ BoundedContext ReservationManagement implements ReservationManagement
 BoundedContext Analysis implements Analysis
 
 BoundedContext SignUp implements SignUp
-BoundedContext Notification implements Notification
 BoundedContext TripSharing implements TripSharing
 BoundedContext Anonymisation implements Anonymisation
 BoundedContext Authentication implements Authentication
 
-BoundedContext ExternalTravelAgencySystem
-BoundedContext ExternalEmailSystem
-BoundedContext ExternalSocialMediaPlatform
-BoundedContext ExternalMessagingSystem
+BoundedContext TravelAgencySystem
+BoundedContext EmailSystem
+BoundedContext SocialMediaPlatform
+BoundedContext MessagingSystem
 
 
 /* Domains & Subdomain Definitions */
@@ -73,9 +70,6 @@ Domain Travel {
         type = CORE_DOMAIN
     }
     Subdomain SignUp {
-        type = SUPPORTING_DOMAIN
-    }
-    Subdomain Notification {
         type = SUPPORTING_DOMAIN
     }
     Subdomain TripSharing {
