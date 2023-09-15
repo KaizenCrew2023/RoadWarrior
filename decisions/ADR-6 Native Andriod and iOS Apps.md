@@ -2,11 +2,11 @@
 
 ## Context
 
-This section describes the forces at play, including technological, political, social, and project local. These forces are probably in tension, and should be called out as such. The language in this section is value neutral. It is simply describing facts.
+Road Warrior have made a strategic decision to have as rich as possible Mobile apps 
 
 ## Decision
 
-This section describes our response to these forces. It is stated in full sentences, woth active voice. "We will..."
+We will build native Mobile apps for both iOS and Android.
 
 ## Status
 
@@ -14,6 +14,11 @@ Proposed
 
 ## Consequences
 
-This section describes the resulting context, after applying the decision. All consequences should be listed here, not just the "positive" ones. A particular decision may have positive, negative, and neutral consequences, but all of them affect the team and project in the future. 
+Positive:
+- Best UX for all App users
 
-The whole document should be one or two pages long. We will write each ADR as if it is a conversation with a future developer. This requires good writing style, with full sentences organised into paragraphs. Bullets are acceptable only for visual style, not as an excuse for writing sentence fragments. 
+Negative:
+- Cost - each app will require dedicated development
+  
+Alternative Considered:
+- Cross platform app - would not offer the rich experience on each device type.
