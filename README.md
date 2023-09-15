@@ -18,7 +18,7 @@
 
 ![Road Warrior](images/roadwarrior-logo.PNG)
 
-Road Warrior is a next generation online trip management dashboard and mobile app. 
+Road Warrior is a next generation online reservation management dashboard and mobile app. 
 
 It gathers information about upcoming flights, hotel reservations and car rentals for you to create a detailed trip itenerary and see information about all of your trips and reservations in one place. It can scan your inbox for travel-related emails and automatically add new reservations for you to add to upcoming trips. 
 
@@ -107,7 +107,7 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 
 #### Core Subdomains
 
-* Trip management
+* Reservation management
 * Mobile app
 * Analysis
 
@@ -124,11 +124,14 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 
 ### Strategic Design Decisions
 
-* Trip management, analysis and Road Warrior's mobile and web apps have to be be implemented in-house.
+* Reservation management, analysis and Road Warrior's mobile and web apps have to be be implemented in-house.
 * Authentication should delegated to the service hosting the users email account or implemented using off-the-shelf or open source solutions.
 * Signing up, email scanning, data anonymisation and integration with messaging and social media platforms can be outsourced. 
 
-### [Insert Diagrams]
+### Core Subdomain Diagrams
+
+#### Key
+![Diagram Key](images/roadwarrior-diagram-key.png)
 
 #### Mobile app
 ![Subdomain Mobile](images/roadwarrior-subdomain-mobile.png)
@@ -143,7 +146,7 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 * Performance
 * Localisation and internationalisation
 
-#### Trip management
+#### Reservation management
 ![Subdomain Reservations](images/roadwarrior-subdomain-reservations.png)
 
 ##### Architectural Characteristics
@@ -159,8 +162,7 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 * Cost
 * Learnability
 
-#### Core
-![Core Domains](images/roadwarrior-coredomains.png)
+### Supporting and Generic Subdomains
 
 ### Architecture Decision Records
 
