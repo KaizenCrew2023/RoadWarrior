@@ -6,7 +6,7 @@ Road Warrior require their app to be international and be performant regardless 
 
 ## Decision
 
-We will implement a multi region/geography write database solution for the Reservations database 
+We will implement a multi region/geography write database solution for the Trips and Reservations database 
 
 ## Status
 
@@ -15,7 +15,7 @@ Proposed
 ## Consequences
 
 Positive:
-- Enables the geo-located reservations services to access the reservations database 'locally' with notifications and viewing performaing coparably across all regions.
+- Enables the geo-located reservations services to access the reservations database 'locally' with notifications and viewing performing comparably across all regions.
 
 Negative:
 - Cost 
