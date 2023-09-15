@@ -16,7 +16,7 @@ Proposed
 
 Positive:
 - App performance is not compromised due to geo-location.
-- User experience is of using hte same app in all locations
+- User experience is of using the same app in all locations
 
 Negative:
 - Cost - all apps and services require multi geo-location deployments
