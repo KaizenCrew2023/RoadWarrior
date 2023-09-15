@@ -130,7 +130,7 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 
 ### Architecture Decision Records
 
-* [ADR 1: Event-Driven Architecture for Reservations](decisions/ADR-1%20Event-Driven%20Architecture%20for%20Reservations.md)
+* [ADR 1: Event-Driven Microservices Architecture for Reservations](decisions/ADR-1%20Event-Driven%20Architecture%20for%20Reservations.md)
 * [ADR 2: Micro Frontends](decisions/ADR-2%20Micro%20Frontends.md)
 * [ADR 3: Cloud Content Delivery Network at the Edge](decisions/ADR-3%20Cloud%20Content%20Delivery%20Network%20at%20the%20Edge.md)
 * [ADR 4: Geo-replication for Trips and Reservations](decisions/ADR-4%20Geo-replication%20for%20Trips%20and%20Reservations.md)
