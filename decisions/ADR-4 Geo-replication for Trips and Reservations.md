@@ -8,8 +8,6 @@ Road Warrior require their app to be international and be performant regardless 
 
 We will implement a multi region/geography write database solution for the Reservations database 
 
-This section describes our response to these forces. It is stated in full sentences, woth active voice. "We will..."
-
 ## Status
 
 Proposed
