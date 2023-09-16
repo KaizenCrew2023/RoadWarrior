@@ -2,7 +2,7 @@
 
 ## Context
 
-Road Warrior require their app to be international and be performant regardless of worldwide location. 
+Road Warrior must work internationally and deliver 300ms response times on the web and First Contentful Paint in under 1.4s in the mobile app regardless of users' location. 
 
 ## Decision
 
@@ -10,16 +10,19 @@ We will use a cloud content delivery network at the edge for serving content and
 
 ## Status
 
-Proposed
+Accepted
 
 ## Consequences
 
 Positive:
-- App performance is not compromised due to geo-location.
+
+* **Performance** - serving static and dynamic content via a content delivery network at the edge, closer to the user's device, will help lower latency and response times.
 
 Negative:
-- Cost - all apps and services require multi geo-location deployments
-- App deployment updates / rollout becomes more complex
+
+ * **Cost** - multi-region deployments and cloud-based CDN/edge services are more expensive than single region deployments.
+ * **Complexity** - multi-region deployments could be more complex to manage. Ease of implementation should be considered when selecting a cloud CDN. 
 
 Alternatives considered:
-- Single region hosting and accepting some regions have poorer performance due to latency
+
+* Single region hosting and accepting some regions have poorer performance due to latency.
