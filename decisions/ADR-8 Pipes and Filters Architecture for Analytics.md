@@ -2,7 +2,7 @@
 
 ## Context
 
-Road Warrior gathers analytical data from users trips for various purposes, such as travel trends, locations, airlines abd hotel vendor preferences, as well as behaviours such as cancellation and update frequency.
+Road Warrior gathers analytical data from users trips for various purposes such as travel trends, locations, airlines and hotel vendor preferences. It also analyses traveller behaviour including cancellation and update frequency.
 
 ## Decision
 
