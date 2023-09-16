@@ -10,7 +10,7 @@ We will build native Mobile apps for both iOS and Android.
 
 ## Status
 
-Proposed
+Accepted
 
 ## Consequences
 
