@@ -16,10 +16,10 @@ Accepted
 
 Positive:
 
-- Enables each micro front end to be for distinct subdomains 
-- Enables outsourcing of the development of supporting subdomains
-- Each front-end could be owned by independent teams as the application scales in size
-- The technology choices in the future can evolve without needing that 'major' rewrite
+- **Modular** - Enables each micro front end to be for distinct subdomains 
+- **Team topologies** - Each front-end could be owned by independent teams as the application scales in size,
+- **Team topologies** - Enables outsourcing of the development of supporting subdomains
+- **Extensibility** - The technology choices in the future can evolve without needing that 'major' rewrite
 
 Negative:
 
