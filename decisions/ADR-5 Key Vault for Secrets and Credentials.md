@@ -2,7 +2,7 @@
 
 ## Context
 
-Road Warrior's users can authorise it to access their email accounts and scan travel-realted emails for new reservations. They can also share trip information with people directly from the Road Warrior app and trip dashboard via messaging and social media platforms. Safeguarding access to its users' accounts and sensitive information is critical to Road Warrior's long-term success. 
+Road Warrior's users can authorise it to access their email accounts and scan travel-related emails for new reservations. They can also share trip information with people directly from the Road Warrior app and trip dashboard via messaging and social media platforms. Safeguarding access to its users' accounts and sensitive information is critical to Road Warrior's long-term success. 
 
 ## Decision
 
