@@ -10,7 +10,7 @@ We will implement a multi region/geography write database solution for the Trips
 
 ## Status
 
-Proposed
+Accepted
 
 ## Consequences
 
