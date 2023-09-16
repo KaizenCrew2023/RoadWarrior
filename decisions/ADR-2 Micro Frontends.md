@@ -10,7 +10,7 @@ We will build micro-front ends for the web application.
 
 ## Status
 
-Proposed
+Accepted
 
 ## Consequences
 
