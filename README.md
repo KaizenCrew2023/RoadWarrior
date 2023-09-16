@@ -1,3 +1,5 @@
+<img src="images/kaizencrew-logo.png" alt="kaizen crew logo" width="100"/>
+
 # Kaizen Crew's O'Reilly Architectural Kata 2023
 
 ## Contents
