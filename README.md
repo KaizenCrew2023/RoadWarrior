@@ -114,7 +114,7 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 
 * Reservation management
 * Mobile app
-* Analysis
+* Analytics
 
 #### Generic Subdomains
 
@@ -178,6 +178,8 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 * Learnability
 
 ### Further Considerations
+
+We have drawn architecture diagrams for the core subdomains Reservations, Mobile App and Analytics. The team discussed whether or not email scanning should form part of the core subdomain. It has complexity in that it must authorise Road Warrior’s access to users’ email accounts and parse emails to discern context, detect new reservations and reservation/confirmation numbers from email content. However, ultimately, the team concluded this should not form part of the core subdomain because it is an optional setting for users. They felt it was unnecessary to focus on specific details of implementation of generic and supporting subdomains as these are not core to Road Warrior’s success.
 
 ## Glossary
 
