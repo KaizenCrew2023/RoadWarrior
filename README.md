@@ -175,3 +175,9 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 * Learnability
 
 ### Supporting and Generic Subdomains
+
+## Glossary
+
+* **Trip** - A collection of reservations 
+* **Reservation** - A booking placed by a traveller on a third party travel agent (e.g. airline, hotels)
+* **Traveller** - The user of Road Warrior who owns the reservations
