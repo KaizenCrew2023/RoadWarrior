@@ -21,4 +21,4 @@ Negative:
 - Cost - each app will require dedicated development
   
 Alternative Considered:
-- Cross platform app - would not offer the richest experience on each mobile device type.
+- Cross platform app - would not necessarily offer the richest experience on each mobile device type.
