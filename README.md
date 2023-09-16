@@ -16,6 +16,8 @@
     * [Strategic Design Decisions](#strategic-design-decisions)
     * [Architecture Decision Records](#architecture-decision-records)
     * [Architecture Diagrams](#architecture-diagrams)
+    * [Further Considerations](#further-considerations)
+ * [Glossary](#glossary)
 
 ## Business Context
 
@@ -175,7 +177,7 @@ Trip analysis will provide insight into travellers' habits, behaviours and prefe
 * Cost
 * Learnability
 
-### Supporting and Generic Subdomains
+### Further Considerations
 
 ## Glossary
 
