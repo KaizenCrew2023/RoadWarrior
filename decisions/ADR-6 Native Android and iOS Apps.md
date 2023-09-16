@@ -15,10 +15,11 @@ Proposed
 ## Consequences
 
 Positive:
-- Best UX for all App users
+- **Separation of concerns** - Each operating system gets the richest UX for that platform
+- **Flexibile/evolvable** - Dedicated app features can be built targetting the relevant device, without impactung the other device and/or web users.
 
 Negative:
-- Cost - each app will require dedicated development
+- **Cost** - each app will require dedicated development
   
 Alternative Considered:
 - Cross platform app - would not necessarily offer the richest experience on each mobile device type.
