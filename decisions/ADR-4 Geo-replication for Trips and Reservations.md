@@ -15,10 +15,11 @@ Proposed
 ## Consequences
 
 Positive:
-- Enables the geo-located reservation and trip services to access their databases 'locally' with performance being comparable across all regions.
-
+- **Performance** - Enables the geo-located reservation and trip services to access their databases 'locally' with performance being comparable across all regions.
+- **Data consistency** - PaaS database will automatically replicate worldwide to ensure data consistency across regions
+  
 Negative:
-- Cost 
+- **Cost** - Worldwide replicate will cost, but is accepted for the benefit it provides. 
 
 Alternatives:
 - Geo-replication with single region write, multi region read. Updates will incur more latency but app performance for viewing reservation information will not be impacted. Thus notifcations of updates could be slower.
