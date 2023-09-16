@@ -12,9 +12,10 @@
     * [Architectural Principles](#architectural-principals)
     * [Components](#components)
     * [Context Map](#context-map)
-    * [Architecture Decision Records](#architecture-decision-records)
     * [Domains and Subdomains](#domains-and-subdomains)
     * [Strategic Design Decisions](#strategic-design-decisions)
+    * [Architecture Decision Records](#architecture-decision-records)
+    * [Architecture Diagrams](#architecture-diagrams)
 
 ## Business Context
 
