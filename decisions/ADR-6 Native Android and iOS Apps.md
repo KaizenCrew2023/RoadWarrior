@@ -2,7 +2,7 @@
 
 ## Context
 
-Road Warrior have made a strategic decision to have as rich as possible Mobile apps 
+Road Warrior have made a strategic decision to have the richest user experience possible across all deployment platforms, which includes Mobile apps.
 
 ## Decision
 
