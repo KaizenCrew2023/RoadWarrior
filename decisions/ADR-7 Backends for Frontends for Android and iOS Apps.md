@@ -10,19 +10,20 @@ We will have dedicated backend for frontend (BFF) service for our iOS and Androi
 
 ## Status
 
-Proposed
+Accepted
 
 ## Consequences
 
 Positive:
-- Improved user experience 
-- Performance optimization - backend services can easy align with the specific performance requirements of each frontend
-- Scalability - backend services can dynamically scale based on the load and traffic of each mobile frontend
-- Flexibility for future evolving - new mobile frontens or updates to existing ones can be done with miminam disruption to the architecture
+
+* **Performance optimised** - backend services can easy align with the specific performance requirements of each frontend.
+* **Scalable** - backend services can dynamically scale based on the load and traffic of each mobile frontend.
+* **Flexibile/evolvable** - new mobile frontends or updates to existing ones can be done with miminam disruption to the architecture.
 
 Negative:
-- Single point of failure -  if the BFF service becomes unavailable, the mobile  app will not function
-- Architectural complexity - multiply BFF increased the complexity, clear communication and documentation needed
+
+- **Single point of failure** -  if the backend service becomes unavailable, the mobile app will not function.
+- **Architectural complexity** - multiple backends for frontends increases complexity; clear communication and documentation are needed.
 
 Alternatives Considered:
-- API Gateway to manage interactions between frontends and the backend
+- API Gateway to manage interactions between frontends and the backend.
